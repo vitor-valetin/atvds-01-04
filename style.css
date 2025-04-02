@@ -175,3 +175,64 @@ body:has(#clickCheck:checked) .container{
     transform: rotate(270deg);
     translate: 5px;
 }
+
+.container-noticias{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.noticias-3{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    width: 1300px;
+}
+
+.noticia{
+    background-color: #B0B0B0;
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+}
+
+.type-1{
+    text-align: center;
+}
+
+.type-1 img{
+    width: 275px;
+    height: 270px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.type-1 p{
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.type-2 .top{
+    display: flex;
+    margin-top: 5px;
+}
+
+.type-2 .top p{
+    font-weight: 700;
+    font-size: 16px;
+    margin: 14px 0 0 0;
+}
+
+.type-2 img{
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.type-2 p{
+    text-align: center;
+    margin: 0 8px;
+    font-weight: 400;
+}
