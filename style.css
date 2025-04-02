@@ -8,7 +8,7 @@ html{
 body{
     margin: 0;
     box-sizing: border-box;
-    background-color: #F5F5F5;
+    background-color: #FAF8F5;
     cursor: default;
     font-family: "Crimson Text", serif;
     font-weight: 400;
@@ -122,6 +122,12 @@ body:has(#clickCheck:checked) .container{
     background-color: #B0B0B0;
     color: #333333;
     border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.noticia-topo:hover{
+    transform: scale(1.05, 1.05);
+    box-shadow: -6px 6px 20px 0 black;
 }
 
 .noticia-body{
@@ -144,6 +150,7 @@ body:has(#clickCheck:checked) .container{
     width: 500px;
     height: 200px;
     border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .noticia-body .text{
@@ -191,9 +198,16 @@ body:has(#clickCheck:checked) .container{
 
 .noticia{
     background-color: #B0B0B0;
-    width: 300px;
-    height: 350px;
+    width: 350px;
+    height: 400px;
     border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.noticia:hover{
+    cursor: pointer;
+    transform: scale(1.05, 1.05);
+    box-shadow: -6px 6px 20px 0 black;
 }
 
 .type-1{
@@ -203,14 +217,16 @@ body:has(#clickCheck:checked) .container{
 .type-1 img{
     width: 275px;
     height: 270px;
-    margin-top: 10px;
+    margin-top: 20px;
     border-radius: 20px;
 }
 
 .type-1 p{
-    margin-top: 5px;
-    font-size: 16px;
-    font-weight: 700;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Merriweather";
+    border-top: 1px solid #B0B0B0;
 }
 
 .type-2 .top{
@@ -219,20 +235,27 @@ body:has(#clickCheck:checked) .container{
 }
 
 .type-2 .top p{
-    font-weight: 700;
-    font-size: 16px;
-    margin: 14px 0 0 0;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 5px 0 0 0;
+    font-family: "Merriweather";
+    line-height: 1.4;
+    color: black;
 }
 
 .type-2 img{
-    width: 120px;
-    height: 120px;
+    width: 130px;
+    height: 130px;
     margin: 10px;
     border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .type-2 p{
     text-align: center;
     margin: 0 8px;
     font-weight: 400;
+    line-height: 1.6;
+    font-size: 18px;
+    color: #333333;
 }
